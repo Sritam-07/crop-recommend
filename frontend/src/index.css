@@ -1,0 +1,87 @@
+/* Apply a gentle, modern gradient background to the page */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e9f7ef 0%, #deebf7 100%);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #213547;
+  padding: 0;
+}
+
+/* Make code blocks and inline code clean and readable */
+code {
+  font-family: 'Fira Mono', 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: #f5f7fa;
+  color: #34536a;
+  padding: 0.175em 0.45em;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Style cards or containers (optional but recommended for sections) */
+.main-card, .container {
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(60,160,160,0.08);
+  border-radius: 18px;
+  padding: 2.3rem 2rem;
+  margin: 2.5rem auto;
+  max-width: 480px;
+  text-align: left;
+  transition: box-shadow 0.18s;
+}
+
+.main-card:hover, .container:hover {
+  box-shadow: 0 8px 32px rgba(60,120,180,0.13);
+}
+
+/* Improve heading styles */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #225987;
+  margin-bottom: 1rem;
+  letter-spacing: 0.01em;
+}
+
+/* Button styling for primary actions */
+.button-primary {
+  background: #329e50;
+  color: #fff;
+  border: none;
+  border-radius: 32px;
+  padding: 0.7em 2em;
+  font-size: 1.08em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.16s;
+  margin-top: 1.3rem;
+  box-shadow: 0 1px 5px rgba(40,120,100,0.06);
+}
+.button-primary:hover {
+  background: #226739;
+}
+
+/* Make sure everything is responsive */
+@media (max-width: 650px) {
+  .main-card, .container {
+    padding: 1rem;
+    max-width: 96vw;
+  }
+  h1, h2, h3 {
+    font-size: 1.08em;
+  }
+}
+
+/* Optional: smooth links and hover feedback */
+a {
+  color: #2180cc;
+  text-decoration: none;
+  border-bottom: 1.5px dotted #78aeda;
+  transition: color 0.13s, border-bottom 0.13s;
+}
+a:hover {
+  color: #145089;
+  border-bottom: 1.5px solid #329e50;
+}
