@@ -70,3 +70,7 @@ step 3: Go to the frontend dir and run the below code in paralel with the new te
 ->npm start
 step 4: 
 It will directly redirect to the website where you can enter your detais and find the result according to the data given 
+
+
+![Key Slides](/slides/crop-present-1.png)
+[Download Full Slides](/docs/Data-Driven-Crop-Advisory.pptx)
