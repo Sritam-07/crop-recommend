@@ -74,3 +74,5 @@ It will directly redirect to the website where you can enter your detais and fin
 
 ![Key Slides](/slides/crop-present-1.png)
 [Download Full Slides](/docs/Data-Driven-Crop-Advisory.pptx)
+
+[Download Video](https://drive.google.com/file/d/1AnXzil-LxeQaEES5A3tmzP31YQVaY6bf/view)
