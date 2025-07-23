@@ -52,14 +52,21 @@ suitable crops for maximum yield.
 
 ##STEPS TO RUN 
 step 1: Go to backend dir and run the code below in terminal
+
 ->cd backend
+
 -> python api.py
 
 step 2: Go to node-backend dir and run the code below in the terminal
+
 ->cd node-backend
+
 ->node index.js
 
 step 3: Go to the frontend dir and run the below code in paralel with the new terminal 
- ->cd frontend
- ->npm start
-step 4: It will directly redirect to the website where you can enter your detais and find the result according to the data given 
+
+->cd frontend
+
+->npm start
+step 4: 
+It will directly redirect to the website where you can enter your detais and find the result according to the data given 
