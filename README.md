@@ -1,87 +1,65 @@
-# 🌟 Project Name
+TEAM(CL)_70 - Project Hub
+========================
 
-A brief and compelling description of what your project does.  
-_For example: A sleek and powerful web app to manage personal tasks with ease._
+👥 Team Members:
+----------------
+1. Sritam Das          | 24CSE402   | CSE    | 24cse402.sritamdas@giet.edu
+2. Sagarika Choudhury  | 24CSEDS047 | CSE(DS)| 24cse320.sagarikachoudhury@giet.edu
+3. Shipran Keshab Badi | 24CSE346   | CSE    | 24cse346.shiprankeshabbadi@giet.edu
+4. Tapas Ranjan Jena   | 24CSE251   | CSE    | 24cse251.tapasranjanjena@giet.edu
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Made With](https://img.shields.io/badge/made%20with-JavaScript-blue)
 
----
+# 🌟 Crop Recommend System
 
-## 📖 Table of Contents
+Our Crop Recommendation Web App is an AI-powered solution that helps farmers 
+and agricultural enthusiasts select the optimal crop for their land. 
+By analyzing soil parameters (N, P, K levels), temperature, humidity, 
+rainfall, and pH value, our machine learning model suggests the most 
+suitable crops for maximum yield.
 
-- [🚀 Demo](#-demo)
-- [📦 Features](#-features)
-- [🛠️ Technologies](#️-technologies)
-- [⚙️ Installation](#️-installation)
-- [📋 Usage](#-usage)
-- [📂 Project Structure](#-project-structure)
-- [🧪 Tests](#-tests)
-- [🙌 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📬 Contact](#-contact)
 
 ---
 
-## 🚀 Demo
 
-[🔗 Live Demo](https://your-demo-url.com)  
-_Screenshot:_
 
-![Screenshot](https://via.placeholder.com/800x400.png?text=Demo+Screenshot)
-
----
-
-## 📦 Features
-
-- ✅ User Authentication
-- 📅 Task Scheduling & Management
-- 📊 Analytics Dashboard
-- 🌙 Dark Mode Support
-- 🌐 Responsive Design
+## Key Functionalities:
+- 🌱 Real-time crop predictions based on 7 critical parameters
+- 📊 Data visualization of agricultural metrics
+- 🌦️ Weather integration for localized recommendations
+- 📱 User-friendly web interface accessible on all devices
 
 ---
 
 ## 🛠️ Technologies
 
 **Frontend:**
-- React / Vue / Angular
-- Tailwind CSS / Bootstrap
-- Axios / Fetch API
+- React
+- CSS
+- Axios
 
 **Backend:**
 - Node.js + Express
-- MongoDB / PostgreSQL
-- JWT for Auth
+- python (ML MODEL TRAINING)
 
 **Dev Tools:**
 - Git + GitHub
-- ESLint + Prettier
-- Docker (optional)
-
 ---
 
-## ⚙️ Installation
-
 ### Prerequisites
-- Node.js ≥ 18.x
-- npm / yarn
-- MongoDB or PostgreSQL (running locally or remotely)
+- Node.js
+- npm
+- pip install numpy pandas matplotlib seaborn scikit-learn xgboost joblib
 
-### Steps
+##STEPS TO RUN 
+step 1: Go to backend dir and run the code below in terminal
+->cd backend
+-> python api.py
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/project-name.git
-cd project-name
+step 2: Go to node-backend dir and run the code below in the terminal
+->cd node-backend
+->node index.js
 
-# Install dependencies
-npm install
-
-# Configure environment variables
-cp .env.example .env
-# Then edit the .env file to match your setup
-
-# Start the development server
-npm run dev
+step 3: Go to the frontend dir and run the below code in paralel with the new terminal 
+ ->cd frontend
+ ->npm start
+step 4: It will directly redirect to the website where you can enter your detais and find the result according to the data given 
